@@ -23,6 +23,7 @@
 ## 📈 Статистика
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=leksmustang&show_icons=true&theme=tokyonight)
+![Топ языков](https://github-readme-stats.vercel.app/api/top-langs/?username=leksmustang&layout=compact&theme=tokyonight)
 
 ## 📫 Контакты
 
