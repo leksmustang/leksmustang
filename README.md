@@ -20,12 +20,11 @@
 - **🧠 dance-psy_bot** — это два маленьких коммерческих бота, используемых студией танцев и психологом, для автоматизации рутинных задач(работают независимо друг  от друга, просто имеют общий start).
 - **📊 LeadGen-агент** — сбор контактов, парсинг сайтов и автоматическая email-рассылка с веб-панелью на Flask(private).
 
-## 📊 Статистика
+## 📊 GitHub в цифрах
 
-## 📊 Статистика активности
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=leksmustang&theme=dark&hide_border=true)
-![График активности](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=leksmustang&theme=github_dark&utcOffset=3)
+![Followers](https://img.shields.io/github/followers/leksmustang?style=for-the-badge&logo=github&label=Подписчики)
+![Repos](https://img.shields.io/badge/Репозитории-3-blue?style=for-the-badge&logo=github)
+![Commits](https://img.shields.io/badge/Коммиты-50+-brightgreen?style=for-the-badge&logo=github)
 
 ## 📫 Контакты
 
