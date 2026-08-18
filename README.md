@@ -22,10 +22,12 @@
 
 ## 📊 Статистика
 
-![Статистика](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=leksmustang&theme=github_dark)
-![Топ языков](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=leksmustang&theme=github_dark)
+## 📊 Статистика активности
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=leksmustang&theme=dark&hide_border=true)
 ![График активности](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=leksmustang&theme=github_dark&utcOffset=3)
 
 ## 📫 Контакты
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/KotikLeks)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leksmustang@gmail.com)
