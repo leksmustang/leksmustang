@@ -20,7 +20,7 @@
 
 ```mermaid
 flowchart LR
-    C[Клиент] --> M{Telegram · VK · WhatsApp}
+    C[Клиент] --> M{Telegram · VK · WhatsApp . и другими платформами}
     M --> R[QuickBiz Runtime]
     R --> Q[Консультация]
     R --> B[Запись и календарь]
