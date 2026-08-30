@@ -1,32 +1,97 @@
-# 👋 Привет, я leksmustang
+<div align="center">
 
-### Python-разработчик | Автоматизация | Chat-боты(telegram/VK/WhatsApp | Лидогенерация | Парсеры
+# QuickBiz Automation
 
-Создаю  инструменты для бизнеса: парсинг данных, умные боты, веб-панели и автоматические рассылки.
+### Бизнес-боты, которые не просто отвечают — они ведут клиента к результату
 
-## 🛠️ Мой стек
+[![QuickPult](https://img.shields.io/badge/Главный_проект-QuickPult-2563EB?style=for-the-badge)](https://github.com/leksmustang/QuickPult)
+[![Website](https://img.shields.io/badge/Сайт-quickbizauto.com-111827?style=for-the-badge)](https://quickbizauto.com)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Runtime-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+</div>
 
-## 📂 Мои проекты
+## О направлении
 
-- **🤖 Ai_tg_bot** — Telegram-бот с AI-ассистентом, умеющим не только переписываться, но и решать математические задачи, анализировать голосовые сообщения, парсить фото и документы проводить анализ давать ответ.
-- **🧠 dance-psy_bot** — это два маленьких коммерческих бота, используемых студией танцев и психологом, для автоматизации рутинных задач(работают независимо друг  от друга, просто имеют общий start).
-- **📊 LeadGen-агент** — сбор контактов, парсинг сайтов и автоматическая email-рассылка с веб-панелью на Flask(private).
+Я развиваю QuickBiz — экосистему автоматизации бизнес-процессов через управляемых ботов. Цель не в том, чтобы собрать ещё один операторский чат. Бот должен самостоятельно консультировать, квалифицировать клиента, записывать на услугу, сопровождать оплату и передавать разговор человеку только там, где действительно требуется решение специалиста.
 
-## 📊 GitHub в цифрах
+> **QuickBiz соединяет клиента с бизнес-процессом, а не с очередью операторов.**
 
-![Followers](https://img.shields.io/github/followers/leksmustang?style=for-the-badge&logo=github&label=Подписчики)
-![Repos](https://img.shields.io/badge/Репозитории-3-blue?style=for-the-badge&logo=github)
-![Commits](https://img.shields.io/badge/Коммиты-50+-brightgreen?style=for-the-badge&logo=github)
+```mermaid
+flowchart LR
+    C[Клиент] --> M{Telegram · VK · WhatsApp}
+    M --> R[QuickBiz Runtime]
+    R --> Q[Консультация]
+    R --> B[Запись и календарь]
+    R --> P[Заказ и оплата]
+    R --> A[Аналитика]
+    R -->|сложный вопрос| H[1–2 сотрудника в QuickPult]
+    Q --> RESULT[Результат для бизнеса]
+    B --> RESULT
+    P --> RESULT
+```
 
-## 📫 Контакты
+## Флагманский проект
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/KotikLeks)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leksmustang@gmail.com)
+### [QuickPult](https://github.com/leksmustang/QuickPult) — платформа управления автономными бизнес-ботами
+
+QuickPult объединяет производство, размещение и контроль индивидуальных ботов в одном продукте. Один сценарий может работать одновременно в Telegram и ВКонтакте, сохранять раздельные диалоги и использовать общие бизнес-правила.
+
+**Что уже умеет платформа:**
+
+- производственный цикл от заявки до тестирования и передачи заказчику;
+- QuickBiz Runtime для продаж, записи и индивидуальных процессов;
+- Telegram webhook/polling, VK Callback API/Long Poll и слой WhatsApp Cloud API;
+- единый Пульт диалогов с ручным перехватом и возвратом разговора боту;
+- внутренний календарь, несколько услуг и специалистов, отмены и напоминания;
+- лиды, сделки, бизнес-события, аналитика и рассылки;
+- проектные уведомления сотрудников;
+- тарифные ограничения и строгая изоляция данных клиентов;
+- самостоятельное изменение владельцем цен, услуг, сотрудников и рабочих текстов;
+- безопасное обслуживание, реконструкция и отключение переданных проектов.
+
+```text
+Заявка → Проектирование → Тест → Согласование → Подключение каналов
+       → Передача клиенту → Работа 24/7 → Контроль → Обслуживание
+```
+
+**Сильная сторона:** детерминированные бизнес-действия. Цена, запись, оплата и состояние сделки не придумываются языковой моделью. Будущий AI-слой отвечает за понимание свободного текста и естественный диалог, а критичные действия остаются под контролем Runtime.
+
+## Другие проекты
+
+| Проект | Назначение | Сильные стороны |
+|---|---|---|
+| [project101](https://github.com/leksmustang/project101) | Набор Telegram-ботов для студии, психолога и детейлинга | Модульная архитектура, состояния диалога, запись, календарная логика и antiflood |
+| [vk-bot](https://github.com/leksmustang/vk-bot) | Бот ВКонтакте для студии танцев | Прайс, аренда, пробная запись, оплата, отмена и перенос занятия |
+| [Dance_psy_bot](https://github.com/leksmustang/Dance_psy_bot) | Отраслевые Telegram-боты | Сценарии студии и психолога, сбор данных клиента и прикладные ветки |
+| [dance-psy_bot](https://github.com/leksmustang/dance-psy_bot) | Публичная версия отраслевых ботов | Развёртывание, health endpoint и устойчивый запуск нескольких процессов |
+| [Ai_tg_bot](https://github.com/leksmustang/Ai_tg_bot) | Мультимодальный AI-ассистент | Текст, документы, ссылки, изображения, голос, vision и математический модуль |
+
+## Принципы разработки
+
+- **Индивидуальная логика вместо одинаковых воронок.** Шаблоны ускоряют старт, но бизнес-процесс проектируется под конкретную компанию.
+- **Один сотрудник контролирует множество автоматизированных диалогов.** Человек подключается по исключению, а не ведёт каждую переписку вручную.
+- **Сначала надёжное действие, затем красивый ответ.** Записи, сделки и оплата фиксируются проверяемыми событиями.
+- **Каналы — это транспорт.** Telegram, VK, WhatsApp и будущий виджет сайта используют единое ядро проекта.
+- **Владелец управляет изменяемыми данными.** Цены, услуги, специалисты, реквизиты и рабочие тексты не требуют обращения к программисту.
+
+## Технологический фокус
+
+`Python` · `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `Telegram Bot API` · `VK API` · `WhatsApp Cloud API` · `Docker` · `Render` · `Webhook` · `Long Poll` · `REST API`
+
+## Сейчас в работе
+
+- безопасное сопровождение работающих проектов;
+- платёжный слой с подтверждением через webhook провайдера;
+- гибридный AI для свободного текста без передачи ему критичных бизнес-решений;
+- внешние календари и CRM-интеграции;
+- подготовка QuickPult к production-инфраструктуре.
+
+---
+
+<div align="center">
+
+**Главная разработка:** [QuickPult](https://github.com/leksmustang/QuickPult) · **Продукт:** [quickbizauto.com](https://quickbizauto.com)
+
+</div>
