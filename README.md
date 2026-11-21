@@ -26,9 +26,9 @@ Open to worldwide remote roles and contract projects.
 |---|---|---|
 | **[QuickPult](https://quickbizauto.com)** | Multi-channel SaaS for building and operating digital employees: conversations, bookings, payments, human handoff, analytics and versioned workflows | Controlled pilot; private source, walkthrough available |
 | **[AI Telegram Assistant](https://github.com/leksmustang/Ai_tg_bot)** | LLM chat, vision, voice transcription, PDF/DOCX/TXT analysis, image generation, exact math and subscription limits | Public portfolio prototype |
-| **[Coordinate Meter](./CASE_STUDIES.md#coordinate-meter)** | OCR workflow for extracting coordinates from field photos, reviewing uncertain results and calculating distances | Packaged Windows build; private source |
+| **[Coordinate Meter](https://github.com/leksmustang/coordinate-meter)** | OCR workflow for extracting coordinates from field photos, reviewing uncertain results and calculating distances | Public source; packaged Windows workflow |
 | **[Business Bot Prototypes](https://github.com/leksmustang/dance-psy_bot)** | Booking, Google Calendar, payment-state and domain-specific Telegram automation | Public predecessor projects |
-| **[Pora: Dom](./CASE_STUDIES.md#pora-dom)** | Android household-maintenance product taken through signed release and store-submission workflow | Private product; release process in progress |
+| **[Pora: Dom](https://github.com/leksmustang/pora-dom)** | Android household-maintenance product taken through signed release and store-submission workflow | Public source; release process documented |
 
 ## Evidence, not just claims
 
