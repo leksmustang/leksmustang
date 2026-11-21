@@ -1,125 +1,66 @@
 <div align="center">
 
-# QuickBiz Automation
+# Leks
 
-### Цифровые сотрудники и цифровые отделы для бизнеса
+### AI Product Developer · Automation Engineer · Solo Founder
 
-[![QuickPult](https://img.shields.io/badge/Главный_проект-QuickPult-2563EB?style=for-the-badge)](https://github.com/leksmustang/QuickPult)
-[![Website](https://img.shields.io/badge/Сайт-quickbizauto.com-111827?style=for-the-badge)](https://quickbizauto.com)
-[![Version](https://img.shields.io/badge/QuickPult-1.45.0--rc.1-16A34A?style=flat-square)](https://github.com/leksmustang/QuickPult/blob/main/CHANGELOG.md)
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Runtime-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+**I turn business workflows into tested software: from an unclear requirement to a deployed product.**
 
-**QuickPult 1.45.0-rc.1 · рабочий release candidate · контролируемый пилот**
+[Русская версия](./README_RU.md) · [Case studies](./CASE_STUDIES.md) · [QuickBiz](https://quickbizauto.com) · [Telegram](https://t.me/QuickBizAuto)
+
+Open to worldwide remote roles and contract projects.
 
 </div>
 
-## Что я создаю
+## What I bring
 
-Я развиваю **QuickBiz** — инфраструктуру цифровых сотрудников для малого и среднего бизнеса.
+- **End-to-end ownership:** discovery, product logic, architecture, implementation, QA, release, documentation and operations.
+- **AI integration with guardrails:** LLM, vision, speech and image-generation APIs combined with deterministic business rules.
+- **Business automation:** bookings, sales, payments, reminders, human handoff, analytics and multi-channel communication.
+- **Integration work:** Telegram, VK, WhatsApp Cloud API, web widgets, external APIs and calendars.
+- **AI-assisted engineering:** I use coding agents to increase delivery speed while personally owning scope, architecture, verification and the shipped result.
 
-Цифровой сотрудник не просто отвечает на сообщения. Он работает по утверждённому процессу: консультирует, квалифицирует обращение, записывает клиента, сопровождает оплату, выдаёт материалы, напоминает о встрече и передаёт исключение человеку вместе с уже собранным контекстом.
+## Featured work
 
-> **Каналы — это точки общения. Продукт — это управляемый бизнес-процесс и измеримый результат.**
+| Product | What it demonstrates | Status |
+|---|---|---|
+| **[QuickPult](https://quickbizauto.com)** | Multi-channel SaaS for building and operating digital employees: conversations, bookings, payments, human handoff, analytics and versioned workflows | Controlled pilot; private source, walkthrough available |
+| **[AI Telegram Assistant](https://github.com/leksmustang/Ai_tg_bot)** | LLM chat, vision, voice transcription, PDF/DOCX/TXT analysis, image generation, exact math and subscription limits | Public portfolio prototype |
+| **[Coordinate Meter](./CASE_STUDIES.md#coordinate-meter)** | OCR workflow for extracting coordinates from field photos, reviewing uncertain results and calculating distances | Packaged Windows build; private source |
+| **[Business Bot Prototypes](https://github.com/leksmustang/dance-psy_bot)** | Booking, Google Calendar, payment-state and domain-specific Telegram automation | Public predecessor projects |
+| **[Pora: Dom](./CASE_STUDIES.md#pora-dom)** | Android household-maintenance product taken through signed release and store-submission workflow | Private product; release process in progress |
 
-Стратегическое направление проекта: **цифровой сотрудник → цифровой отдел → корпоративная цифровая инфраструктура**.
+## Evidence, not just claims
 
-## Флагманский продукт
+- QuickPult contains **201 automated tests** around critical business logic and security-sensitive flows.
+- One workflow is executed across Telegram, VK and a web widget; the WhatsApp adapter is implemented and awaiting final production E2E verification.
+- Coordinate Meter reached **20/20**, **15/15** and **24/24** on documented OCR and automated test sets used during stabilization.
+- I have prepared packaged Windows releases, signed Android artifacts, deployment configurations, backup/restore tooling and customer/admin documentation.
 
-### [QuickPult](https://github.com/leksmustang/QuickPult) — единый Пульт цифровой команды бизнеса
+Detailed scope, decisions and honest project boundaries: **[case studies](./CASE_STUDIES.md)**.
 
-QuickPult объединяет производство, запуск и контроль цифровых сотрудников. Один опубликованный процесс использует общие услуги, цены, правила и действия во всех подключённых каналах, а владелец бизнеса видит диалоги, записи, оплаты, воронку и состояние системы в одном интерфейсе.
+## Core stack
 
-### Что уже работает
+**Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL, SQLite, Alembic  
+**AI:** OpenAI-compatible APIs, OpenRouter, Gemini/Nemotron vision, Faster-Whisper, Replicate/FLUX, prompt and tool orchestration  
+**Automation:** Telegram Bot API, VK API, WhatsApp Cloud API, webhooks, polling, Google Calendar  
+**Delivery:** Docker, Render, Netlify, Git/GitHub, automated tests, release and operational documentation  
+**Frontend/Product:** JavaScript, HTML, CSS, responsive admin interfaces and web widgets
 
-- управляемый цикл **заявка → производство → тест → согласование → подключение → передача**;
-- типовые цифровые роли для консультации, продажи и онлайн-записи;
-- конструктор индивидуальных бизнес-процессов с условиями, переходами и действиями;
-- настраиваемые кнопки, FAQ, услуги, цены, специалисты и правила передачи человеку;
-- единый Runtime для Telegram, ВКонтакте и веб-виджета;
-- Пульт диалогов с ручным перехватом и возвратом разговора цифровому сотруднику;
-- календарь **день / неделя / месяц**, рабочие графики, фильтры, отмены и напоминания;
-- единая отчётность за **месяц / квартал / год** по лидам, записям, продажам и выручке;
-- приём чеков, проверка оплаты и синхронный учёт продаж;
-- рассылки, уведомления сотрудников и очередь ситуаций, требующих человека;
-- Live Operations: состояние каналов, входящих сообщений и ошибок без перезагрузки страницы;
-- версионирование опубликованных конфигураций и безопасное обслуживание проектов;
-- 201 автоматический тест критической бизнес-логики.
+## Roles and projects I am interested in
 
-### Состояние каналов
+- AI product developer / AI application developer
+- Python backend and automation developer
+- Messenger bots, integrations and internal business tools
+- AI-assisted MVP development and rescue of unfinished products
+- Technical product ownership for small teams and founders
 
-| Канал | Текущее состояние |
-|---|---|
-| **Telegram** | Работает: webhook, локальный polling, кнопки, вложения и автоматическое восстановление webhook |
-| **ВКонтакте** | Работает: Callback API, Long Poll, кнопки и вложения |
-| **Веб-виджет** | Работает: общий Runtime, диалоги в Пульте, вложения и ручной перехват |
-| **WhatsApp Cloud API** | Адаптер и webhook реализованы; требуется завершающая production E2E-проверка |
-| **MAX и Instagram Direct** | Запланированы, но пока не выдаются за готовые интеграции |
+I am comfortable joining as an individual contributor or owning a small product end to end.
 
-## Как устроен продукт
+## Contact
 
-```mermaid
-flowchart LR
-    C[Клиент] --> CH{Telegram · VK · сайт}
-    CH --> R[QuickBiz Runtime]
-    R --> E[Цифровой сотрудник]
-    E --> Q[Консультация]
-    E --> B[Запись и календарь]
-    E --> P[Заказ и оплата]
-    E --> D[Выдача материалов]
-    E -->|исключение| H[Живой сотрудник]
-    Q --> RESULT[Результат бизнеса]
-    B --> RESULT
-    P --> RESULT
-    D --> RESULT
-    R --> PULT[QuickPult: контроль и аналитика]
-```
+- Product and interactive demo: [quickbizauto.com](https://quickbizauto.com)
+- Direct contact: [Telegram](https://t.me/QuickBizAuto)
+- Source-code samples: pinned/public repositories below
 
-Критические действия остаются детерминированными: цена, свободное время, запись, оплата и статус сделки не придумываются языковой моделью. AI должен улучшать понимание свободного текста и естественность общения, не подменяя проверяемые бизнес-правила.
-
-## Продуктовая модель
-
-| Уровень | Ценность |
-|---|---|
-| **Базовый** | Один цифровой сотрудник для одного законченного бизнес-процесса |
-| **Бизнес** | Цифровой отдел: несколько ролей, общий контекст, маршрутизация задач и расширенная аналитика |
-| **Корпоративный** | Несколько процессов или филиалов, CRM/1С/API, расширенные права, аудит, SLA и индивидуальные интеграции |
-
-Сейчас первый уровень уже работает в пилоте. Общий профиль клиента между каналами и полноценная оркестрация нескольких цифровых ролей — следующий архитектурный этап, а не заявленная готовая возможность.
-
-## Ближайшие приоритеты
-
-- единый профиль клиента и продолжение процесса между каналами;
-- оркестрация цифрового отдела и контролируемая передача задач между ролями;
-- производственные интеграции с CRM, 1С и внешними API;
-- подключение MAX, затем Instagram Direct после реальных E2E-проверок;
-- гибридный AI-слой и управляемая база знаний;
-- production-инфраструктура, резервное копирование, восстановление и SLA.
-
-## Принципы разработки
-
-- **Результат вместо имитации общения.** Диалог должен приводить к записи, оплате, продаже или понятной передаче человеку.
-- **Одна логика — несколько каналов.** Мессенджер не должен становиться отдельным бизнес-процессом.
-- **Человек работает с исключениями.** Автоматизация снимает повторяющуюся нагрузку, сохраняя контроль владельца.
-- **Проверяемые действия важнее красивого текста.** Операции фиксируются событиями и отражаются в аналитике.
-- **Честные границы продукта.** Запланированная интеграция не называется готовой до реального end-to-end теста.
-
-## Технологический фокус
-
-`Python` · `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `Telegram Bot API` · `VK API` · `WhatsApp Cloud API` · `Docker` · `Render` · `Webhook` · `Long Poll` · `REST API`
-
-<details>
-<summary><strong>Предыдущие отраслевые прототипы</strong></summary>
-
-Репозитории [project101](https://github.com/leksmustang/project101), [vk-bot](https://github.com/leksmustang/vk-bot), [Dance_psy_bot](https://github.com/leksmustang/Dance_psy_bot) и [dance-psy_bot](https://github.com/leksmustang/dance-psy_bot) сохраняют ранние сценарии студии танцев, психолога и других направлений. Их прикладной опыт постепенно переносится в единое ядро QuickPult.
-
-</details>
-
----
-
-<div align="center">
-
-**Главная разработка:** [QuickPult](https://github.com/leksmustang/QuickPult) · **Продукт:** [quickbizauto.com](https://quickbizauto.com)
-
-</div>
+> Written communication can be handled asynchronously. I work with clear requirements, short progress updates and verifiable acceptance criteria.
